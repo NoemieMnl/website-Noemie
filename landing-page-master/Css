@@ -1,0 +1,29 @@
+/*style CSS 2
+#footer-links a {
+    color: #F8EFEA; /* Couleur du texte des liens */
+    margin-right: 20px; 
+    text-decoration: none; 
+}
+
+#footer-links a:hover {
+    text-decoration: underline; /* Souligne le lien au survol */
+}
+
+#footer-contact p, #footer-social-media div {
+    margin-bottom: 10px; /* Espacement entre les éléments */
+}
+
+/* Responsivité pour les petits écrans */
+@media (max-width: 768px) {
+    #footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-links, #footer-contact, #footer-social-media {
+        margin-bottom: 20px; /* Espacement entre les sections dans un affichage en colonne */
+    }
+
+    #footer-links a {
+        display: block; /* Chaque lien sur sa propre ligne */
+    }

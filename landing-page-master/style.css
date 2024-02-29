@@ -1,0 +1,214 @@
+/* Write some CSS below */
+body {
+    font-family: 'Lato', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #F8EFEA; 
+    color: #192F01; 
+}
+
+header {
+    background-color: #E0475B; 
+    color: white;
+    text-align: center;
+    border-radius: 0 0 20px 20px; 
+    padding: 10px 20px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px;  header */
+
+}
+
+#header-content {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+#header-logo {
+    height: 100px; 
+    position: absolute;
+    left: 10px; 
+    top: 10px; 
+
+}
+
+#search-container {
+    display: flex;
+    align-items: center; 
+}
+
+#search-input {
+    padding: 10px;
+    margin-right: 10px; 
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #E0475B; 
+    color: #F8EFEA;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    
+}
+
+#search-button:hover {
+    background-color: #C33A52; 
+}
+
+
+@media (max-width: 768px) {
+    #header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #search-container {
+        width: 100%;
+        margin-top: 10px; 
+    }
+}
+
+
+#search-section {
+    margin: 20px;
+    text-align: center;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #192F01; 
+    background-color: #ffffff; 
+    color: #192F01; 
+    border-radius: 20px; 
+}
+
+#search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; 
+    background-color: #192F01; 
+    color: white; 
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#search-button:hover {
+    background-color: #c4b237; 
+}
+
+#results-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; 
+    color: #192F01; 
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+#search-section {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+#search-input {
+    flex-grow: 1; 
+    margin-right: 10px; 
+}
+
+#search-button {
+    white-space: nowrap; 
+}
+
+footer {
+    background-color: #192F01; 
+    color: #F8EFEA; 
+    padding: 20px 0; 
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+#footer-links a {
+    color: #F8EFEA; 
+    margin-right: 20px; 
+    text-decoration: none; 
+}
+
+#footer-links a:hover {
+    text-decoration: underline; 
+}
+
+#footer-contact p, #footer-social-media div {
+    margin-bottom: 10px; 
+}
+
+@media (max-width: 768px) {
+    #footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-links, #footer-contact, #footer-social-media {
+        margin-bottom: 20px; 
+    }
+
+    #footer-links a {
+        display: block; 
+    }
+}
+
+.category-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease; 
+}
+
+.card img {
+  width: 100%; 
+  height: auto; 
+  border-top-left-radius: 8px; 
+  border-top-right-radius: 8px;
+}
+
+.card:hover {
+  background-color: #E0475B; 
+  color: #F8EFEA; 
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+.card p {
+  color: #666;
+}
+
+#main-logo img {
+  width: 50px ;
+  length: 50px;
+}
+
+
+
+
